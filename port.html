@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/img/Notebook-Transparent-PNG.png">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>PORTOFOLIO</title>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="side-menu">
+                    <li><a href="#about" style="font-size: 27px; ">ABOUT ME</a></li>
+                    <li><a href="#achievments" style="font-size: 27px; ">ACHIEVMENTS</a></li>
+                    <li><a href="#port" style="font-size: 27px; ">PROJECT</a></li>
+                    <li><a href="#contact" style="font-size: 27px; ">CONTACT</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <nav>
+                <div class="header-text">
+                    <p>X RPL</p>
+                    <h1>HELLO THERE! <br>I'M <span style="color: rgb(255, 0, 0);">NATHAN</span>!</h1>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/img/enlarge_Cuplikan_layar_2023-09-04_110810.png" width="480px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title1">About Me</h1>
+                    <p>Let me introduce myself, my name is M.Nathaniello Bintang Widiyanto. You can call me Nathan. I
+                        was born in Palembang, on June 16th 2007.
+                        I am a student from SMK IDN Boarding School Sentul.
+                        Now I am in grade 10th.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('abilities')">ABILITIES</p>
+                        <p class="tab-links" onclick="opentab('educations')">EDUCATIONS</p>
+                        <p class="tab-links" onclick="opentab('languange')">LANGUANGE</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="abilities">
+                        <ul>
+                            <li><span>HTML</span><br>WEB DEVELOPMENT</li>
+                            <li><span>CSS</span><br>WEB DEVELOPMENT</li>
+                            <li><span>JAVA SCRIPT</span><br>WEB DEVELOPMENT</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>SD PALM KIDS PALEMBANG</span><br>Graduated in 2019</li>
+                            <li><span>PONPES BAITQURANY SOUTH TANGGERANG </span><br>Graduated in 2023</li>
+                            <li><span>IDN BOARDING SCHOOL SENTUL </span><br>NOW</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="languange">
+                        <ul>
+                            <li><span>Indonesia Languange</span><br>First Languange</li>
+                            <li><span>English Languange </span><br>Second Languange</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="achievments"></div>
+        <h1 class="sub-title">ACHIEVMENTS</h1>
+        <div class="achiev">
+
+            <div class="ach">
+                <img src="assets/img/SERTIFIKAT 1_page-0001.jpg" width="380px" height="250px" alt="">
+                <h2>1st Certficate</h2>
+                <p>Certificate Of "Memulai dasar untuk menjadi pengembang software" </p>
+            </div>
+            <div class="ach">
+                <img src="assets/img/SERTIFIKAT 2_page-0001.jpg" width="380px" height="250px" alt="">
+                <h2>2nd Certficate</h2>
+                <p>Certificate Of "Pengenalan ke logika pemrogaman (Progamming Logic 101)" </p>
+            </div>
+            <div class="ach">
+                <img src="assets/img/SERTIFIKAT 3_page-0001.jpg" width="380px" height="250px" alt="">
+                <h2>3rd Certficate</h2>
+                <p>Certificate Of "Belajar dasar visualisasi data" </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="port" id="port">
+        <h1 class="sub-title">MY PROJECT</h1>
+        <div class="container">
+            <div class="web-list">
+
+                <div class="por">
+                    <img src="assets/img/Cuplikan layar 2023-09-08 094118.png" width="450px" height="350px" alt="">
+                    <div class="layer">
+                        <h3>TOP LAYER</h3>
+                        <p>Explaining about "WHAT IS THE WEBSITE TALKING ABOUT"</p>
+                    </div>
+                </div>
+
+                <div class="por">
+                    <img src="assets/img/Cuplikan layar 2023-09-08 094137.png" width="450px" height="350px" alt="">
+                    <div class="layer">
+                        <h3>MAIN LAYER</h3>
+                        <p>Containts main things of the website talking about</p>
+                    </div>
+                </div>
+                
+                <div class="por">
+                    <img src="assets/img/Cuplikan layar 2023-09-08 094203.png" width="450px" height="350px" alt="">
+                    <div class="layer">
+                        <h3>BOTTOM LAYER</h3>
+                        <p>Containts about my biodata</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://nathantzy.github.io/RRQFanWeb.github.io/" class="btn">VISIT WEB</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <h1 class="sub-title">Contact me</h1>
+                <div class="contact-left">
+                    <div class="social-icon">
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea type="massage" rows="6" placeholder="Your massage for me"></textarea>
+                        <button type="submit" class="but">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy">NATZIEEE &copy; 2023</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
